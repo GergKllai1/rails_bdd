@@ -7,7 +7,7 @@ Feature: List articles on the index page
    Scenario: View list of articles on the index page
    Given  the following articles exists
    |title | content |
-   |A breaking news iteam! | Some really breaking action! |
+   |A breaking news item! | Some really breaking action! |
    |Learn Rails 5 | Build megaawesome rails applications!!|
 
    When I visit the site

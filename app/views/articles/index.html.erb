@@ -1,6 +1,8 @@
+<%= render partial: 'header' %>
+
 <h1>Hello World</h1>
 
-<p><%= link_to 'New Article', new_article_path %></p>
+
 
 <% @articles.each do |article| %>
     <p><%= article.title %></p>

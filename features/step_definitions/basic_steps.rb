@@ -15,3 +15,7 @@ end
 When("I fill in {string} with {string}") do |field, content|
     fill_in field, with: content
 end
+
+Given("show me the page") do
+    save_and_open_page
+end

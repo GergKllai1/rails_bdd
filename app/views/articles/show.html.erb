@@ -16,10 +16,10 @@
 <h2>Comments:</h2>
 <% @article.comments.each do | comment | %>
 <p>
-    <h4>Commenter:</h4>
+    <strong>Commenter:</strong>
     <%= comment.commenter %>
 
-    <h5>Comment:</h5>
+    <strong>Comment:</strong>
     <%= comment.body %>
 </p>
 <% end %>

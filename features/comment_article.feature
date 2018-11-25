@@ -15,4 +15,6 @@ Feature: Comment article
         And I fill in "Commenter" with "Greg"
         And I fill in "Body" with "This is great!"
         And I click "Create Comment"
-        Then I should see "Comment successfully added!"
+        Then I should see "Your comment has been posted!"
+        And I should see "Commenter: Greg"
+        And I should see "Comment: This is great!"

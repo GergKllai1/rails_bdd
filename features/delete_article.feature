@@ -12,4 +12,4 @@ Feature: Delete article
     Scenario: User can delete article
         Given I visit the site
         And I click "Delete"
-        Then I should see "The article was successfully deleted"
+        And I should see "The article was successfully deleted"

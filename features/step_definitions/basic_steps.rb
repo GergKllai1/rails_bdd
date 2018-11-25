@@ -12,6 +12,7 @@ When("I click {string}") do |link|
     click_on link
 end
 
+
 When("I fill in {string} with {string}") do |field, content|
     fill_in field, with: content
 end

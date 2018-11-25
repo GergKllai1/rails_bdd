@@ -1,11 +1,7 @@
 <%= render partial: 'header' %>
 
 <h2>
-<% flash.each do |key, value| %>
-        <div class="<%= flash_class(key) %>">
-            <%= value %>
-        </div>
-<% end %>
+<%= render 'flash' %>
 </h2>
 <p>
 <strong>Title:</strong>

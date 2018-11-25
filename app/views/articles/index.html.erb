@@ -1,8 +1,8 @@
-<%= render partial: 'header' %>
+<%= render 'header' %>
 
 <h1>Hello World</h1>
 
-
+<%= render 'flash' %>
 
 <% @articles.each do |article| %>
     <p><%= article.title %></p>

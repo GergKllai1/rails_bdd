@@ -12,7 +12,7 @@ Feature: Create article
         When I fill in "Title" with "Learning Rails 5"
         And I fill in "Content" with "Excited about learning a new framework"
         And I click "Save Article"
-        Then I should see "Article was successfully created."
+        Then I should see "The article was successfully created."
         And I should see "Learning Rails 5"
         And I should see "Excited about learning a new framework"
     

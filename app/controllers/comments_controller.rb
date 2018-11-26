@@ -11,6 +11,7 @@ class CommentsController < ApplicationController
         @comment = @article.comments.find(params[:id])
         @comment.destroy
         redirect_to article_path(@article)
+        flash[:notice] = "The comment has been successfully deleted"
     end
 
     private

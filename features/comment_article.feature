@@ -20,6 +20,6 @@ Feature: Comment article
         And I should see "Comment: This is great!"
 
     Scenario: User can delete a comment at article
-        When I click "Delete"
+        Given I create a comment
+        When I click "Delete Comment"
         Then I should see "The comment has been successfully deleted"
-        

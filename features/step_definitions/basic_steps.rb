@@ -20,3 +20,11 @@ end
 Given("show me the page") do
     save_and_open_page
 end
+
+Given("I create a comment") do
+    steps %(
+        When I fill in "Commenter" with "Greg"
+        And I fill in "Body" with "This is great!"
+        And I click "Create Comment"
+    )
+end
